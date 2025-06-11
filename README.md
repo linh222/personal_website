@@ -9,11 +9,11 @@ Welcome to my portfolio! I'm a PhD researcher at Dublin City University (ADAPT C
 ### 🔹 [MemoriEase: Lifelog QA&Retrieval System](https://github.com/linh222/memoriease_backend_2.0)
 - Built a retrieval-augmented question answering system for lifelog data using custom embeddings + GPT-4o
 - Ranked top-6 globally in the Lifelog Search Challenge (ICMR 2023)
-- Technologies: FAISS, RAG, GPT-4o, LangChain
+- Technologies: Elasticsearch, BLIP-2, RAG, GPT-4o
 
 ### 🔹 [Aspect-Based Sentiment Analysis on App Reviews](https://github.com/linh222/Aspect-based-Sentiment-Analysis-for-Vietnamese-Reviews-about-Beauty-Product-on-E-commerce-Websites)
 - Developed a BERT-based ABSA model with 8 aspects and 3 sentiment classes
-- Deployed in production and integrated with a Tableau dashboard used by product teams and leadership
+- Deployed in production and integrated with a Tableau dashboard
 
 ### 🔹 [Churn Prediction & Revenue Forecasting @ ELSA]
 - Created ML models for user churn detection (F1 75%) and revenue forecasting (error <9%)
