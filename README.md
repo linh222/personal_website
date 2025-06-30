@@ -8,7 +8,7 @@ Welcome to my portfolio! I'm a PhD researcher at Dublin City University (ADAPT C
 
 ### 🔹 [MemoriEase: Lifelog QA&Retrieval System](https://github.com/linh222/memoriease_backend_2.0)
 - Built a retrieval-augmented question answering system for lifelog data using custom embeddings + GPT-4o
-- Ranked top-6 globally in the Lifelog Search Challenge (ICMR 2023)
+- Ranked top-6 at LSC23, top-8 at LSC24 and top-3 at LSC-25
 - Technologies: Elasticsearch, BLIP-2, RAG, GPT-4o
 
 ### 🔹 [Aspect-Based Sentiment Analysis on App Reviews](https://github.com/linh222/Aspect-based-Sentiment-Analysis-for-Vietnamese-Reviews-about-Beauty-Product-on-E-commerce-Websites)
