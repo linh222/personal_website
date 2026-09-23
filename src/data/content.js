@@ -1,17 +1,17 @@
 export const profile = {
   name: 'Quang-Linh Tran',
   shortName: 'Linh',
-  role: 'PhD Researcher · ADAPT Centre, Dublin City University',
+  role: 'Lecturer, University of Information Technology, VNU-HCM',
   tagline:
-    'I build intelligent systems that connect Large Language Models with multimodal data — RAG pipelines, conversational retrieval, and question answering over lifelogs.',
-  openTo: 'Open to Postdoctoral Opportunities',
-  emailDisplay: 'linh.tran3 [at] mail.dcu.ie',
+    'I teach and research intelligent systems that connect Large Language Models with multimodal data — RAG pipelines, conversational retrieval, and question answering over lifelogs. I welcome students interested in AI and NLP research.',
+  openTo: 'Welcoming Students for Research Collaboration',
+  emailDisplay: 'linhtq [at] uit.edu.vn',
   avatar: 'photo.jpg',
   bio: `
-    <p>I am a late-stage PhD researcher at the <strong>ADAPT Centre, School of Computing, Dublin City University</strong>, supervised by Prof. Cathal Gurrin and Prof. Gareth Jones. My research focuses on leveraging Large Language Models for advanced multimedia data analytics, in particular intelligent systems for the <strong>Lifelog Question-Answering</strong> task. I have designed RAG pipelines from scratch with semantic ranking, reranking models and chain-of-thought prompting, fine-tuned and optimised LLMs of various sizes with supervised and reinforcement learning to reach performance comparable to GPT-4o, and built a conversational image retrieval system (CLIP/BLIP2, Elasticsearch/Milvus, FastAPI) that ranked <strong>3rd in the Lifelog Search Challenge 2025</strong>. I also led a team of 10 annotators to construct an open-ended lifelog QA dataset.</p>
+    <p>I am a Lecturer at the <strong>University of Information Technology (UIT), Vietnam National University Ho Chi Minh City</strong>, where I teach and supervise students in artificial intelligence and information retrieval. I hold a PhD in Computer Applications from the <strong>ADAPT Centre, School of Computing, Dublin City University</strong>, supervised by Prof. Cathal Gurrin and Prof. Gareth Jones. My research focuses on leveraging Large Language Models for advanced multimedia data analytics, in particular intelligent systems for the <strong>Lifelog Question-Answering</strong> task. I have designed RAG pipelines from scratch with semantic ranking, reranking models and chain-of-thought prompting, fine-tuned and optimised LLMs of various sizes with supervised and reinforcement learning to reach performance comparable to GPT-4o, and built a conversational image retrieval system (CLIP/BLIP2, Elasticsearch/Milvus, FastAPI) that ranked <strong>3rd in the Lifelog Search Challenge 2025</strong>. I also led a team of 10 annotators to construct an open-ended lifelog QA dataset.</p>
     <p>Before my PhD, I received my BSc in Data Science from the University of Information Technology, Vietnam National University Ho Chi Minh City (2022, GPA 8.62/10), and worked as an Associate Research Engineer at ELSA Corporation (June 2021 – December 2022), where I built machine learning models for churn detection, revenue prediction and lead scoring, and an end-to-end aspect-based sentiment analysis platform for customer reviews.</p>
-    <p>I actively contribute to the research community with publications at ACM Multimedia, ACM ICMR, IEEE CBMI, MMM and PACLIC, by co-organising the <a href="https://sites.google.com/view/aiqam25" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">AI-powered Question-Answering for Multimedia (AIQAM) workshop</a> at ACM MM and the CAMEO task at NTCIR-19, and through teaching at DCU.</p>
-    <p><strong>I am actively seeking postdoctoral research positions</strong> in multimodal AI, Large Language Models, retrieval-augmented generation and intelligent assistants. Feel free to get in touch at <strong>linh.tran3 [at] mail.dcu.ie</strong>.</p>
+    <p>I actively contribute to the research community with publications at ACM Multimedia, ACM ICMR, IEEE CBMI, MMM and PACLIC, by co-organising the <a href="https://sites.google.com/view/aiqam25" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">AI-powered Question-Answering for Multimedia (AIQAM) workshop</a> at ACM MM and the CAMEO task at NTCIR-19, and through teaching at DCU and UIT.</p>
+    <p><strong>I am looking for motivated students</strong> interested in research on multimodal AI, Large Language Models, retrieval-augmented generation and intelligent assistants. If you'd like to work with me, feel free to get in touch at <strong>linhtq [at] uit.edu.vn</strong>.</p>
   `,
   links: [
     { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=YdMKU6sAAAAJ' },
@@ -31,6 +31,8 @@ export const profile = {
     'Reviewer at IEEE ICME 2024',
   ],
   academic: [
+    'Graduated with a PhD in Computer Applications from the ADAPT Centre, Dublin City University (2026)',
+    'Joined the University of Information Technology, VNU-HCM as a Lecturer (2026)',
     'Attendee, ACM ASEAN School on High-Performance Computing and Artificial Intelligence 2025',
     'Visiting Researcher on REMESH Project at Vietnam National University, Vietnam',
     'Attendee at the European Summer School on Information Retrieval (ESSIR 2026)',
@@ -39,12 +41,13 @@ export const profile = {
 
 export const teaching = {
   intro:
-    'Tutor at the School of Computing, Dublin City University, delivering tutorials and lab sessions for undergraduate modules.',
+    'Lecturer at the University of Information Technology, VNU-HCM, teaching and supervising students in AI and information retrieval. Previously a tutor at the School of Computing, Dublin City University, delivering tutorials and lab sessions for undergraduate modules.',
   modules: [
-    { code: 'CSC1008', title: 'Introduction to Programming', role: 'Tutor', semester: 'Spring 2025' },
-    { code: 'CSC1021', title: 'Operating Systems', role: 'Tutor', semester: 'Spring 2025' },
-    { code: 'CSC1063', title: 'Managing Enterprise Computer Systems', role: 'Tutor', semester: 'Spring 2025' },
-    { code: 'CSC1026', title: 'Advanced Programming', role: 'Tutor', semester: 'Fall 2025' },
+    { code: '', title: 'Information Retrieval', role: 'Lecturer', semester: 'Fall 2026', institution: 'UIT, VNU-HCM' },
+    { code: 'CSC1008', title: 'Introduction to Programming', role: 'Tutor', semester: 'Spring 2025', institution: 'DCU' },
+    { code: 'CSC1021', title: 'Operating Systems', role: 'Tutor', semester: 'Spring 2025', institution: 'DCU' },
+    { code: 'CSC1063', title: 'Managing Enterprise Computer Systems', role: 'Tutor', semester: 'Spring 2025', institution: 'DCU' },
+    { code: 'CSC1026', title: 'Advanced Programming', role: 'Tutor', semester: 'Fall 2025', institution: 'DCU' },
   ],
 }
 

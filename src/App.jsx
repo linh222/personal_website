@@ -189,10 +189,12 @@ const Teaching = () => (
           </div>
           <div>
             <h4 className="text-lg font-semibold text-slate-800">
-              {module.code} – {module.title}
+              {module.code ? `${module.code} – ` : ''}
+              {module.title}
             </h4>
             <p className="text-sm text-slate-500 mt-1">
               {module.role} · {module.semester}
+              {module.institution ? ` · ${module.institution}` : ''}
             </p>
           </div>
         </motion.div>
@@ -259,32 +261,6 @@ const ProjectCard = ({ project, index }) => (
     <h4 className="text-xl font-bold text-slate-800 mb-3">{project.title}</h4>
     <p className="text-slate-600 text-sm leading-relaxed flex-1">{project.description}</p>
   </motion.div>
-)
-
-const PostdocCTA = () => (
-  <section className="py-16 bg-gradient-to-r from-sky-500 to-blue-600 text-white">
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-      <h2 className="text-3xl font-bold mb-4">Looking for a Postdoctoral Researcher?</h2>
-      <p className="text-sky-100 max-w-2xl mx-auto mb-8 leading-relaxed">
-        I am completing my PhD on LLM-based question answering over multimodal lifelog data and am
-        seeking postdoctoral positions in multimodal AI, retrieval-augmented generation, information
-        retrieval and intelligent assistants. Let's talk about how I can contribute to your team.
-      </p>
-      <div className="flex flex-wrap gap-4 justify-center">
-        <span className="inline-flex items-center gap-2 px-8 py-3 bg-white text-sky-600 rounded-full font-semibold shadow-md">
-          <Mail size={18} /> {profile.emailDisplay}
-        </span>
-        <a
-          href={profile.links[0].url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-8 py-3 border-2 border-white/60 text-white rounded-full font-semibold hover:bg-white/10 transition-all"
-        >
-          Google Scholar <ExternalLink size={16} />
-        </a>
-      </div>
-    </div>
-  </section>
 )
 
 const Footer = () => (
@@ -355,7 +331,6 @@ export default function App() {
             ))}
           </div>
         </Section>
-        <PostdocCTA />
       </main>
       <Footer />
     </div>
