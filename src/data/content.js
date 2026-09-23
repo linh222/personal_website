@@ -31,11 +31,26 @@ export const profile = {
     'Reviewer at IEEE ICME 2024',
   ],
   academic: [
-    'Graduated with a PhD in Computer Applications from the ADAPT Centre, Dublin City University (2026)',
-    'Joined the University of Information Technology, VNU-HCM as a Lecturer (2026)',
-    'Attendee, ACM ASEAN School on High-Performance Computing and Artificial Intelligence 2025',
-    'Visiting Researcher on REMESH Project at Vietnam National University, Vietnam',
-    'Attendee at the European Summer School on Information Retrieval (ESSIR 2026)',
+    {
+      date: 'September 2026',
+      text: 'Joined the University of Information Technology, VNU-HCM as a Lecturer (2026)',
+    },
+    {
+      date: 'August 2026',
+      text: 'Graduated with a PhD in Computer Applications from the ADAPT Centre, Dublin City University (2026)',
+    },
+    {
+      date: 'July 2026',
+      text: 'Attendee at the European Summer School on Information Retrieval (ESSIR 2026)',
+    },
+    {
+      date: 'March 2025',
+      text: 'Attendee, ACM ASEAN School on High-Performance Computing and Artificial Intelligence 2025',
+    },
+    {
+      date: 'December 2023',
+      text: 'Visiting Researcher on REMESH Project at Vietnam National University, Vietnam',
+    },
   ],
 }
 
@@ -158,7 +173,7 @@ export const projects = [
 ]
 
 export const awards = [
-  '3rd at LSC 2025, 8th at LSC 2024 and 6th at LSC 2023.',
+  '3rd at LSC 2026 and 2025, 8th at LSC 2024 and 6th at LSC 2023.',
   'Student Travel Grant for the European Summer School on Information Retrieval, ESSIR 2026.',
   'The Postgraduate Accommodation Scholarship from the Faculty of Engineering and Computing, DCU (2024).',
   'SIGMM Student Travel Grant for ICMR 2024.',

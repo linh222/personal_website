@@ -289,16 +289,29 @@ export default function App() {
           </div>
         </Section>
         <Section id="academic" title="Academic Activities">
-          <div className="space-y-4">
-            {profile.academic.map((activity, index) => (
-              <div
-                key={index}
-                className="flex items-start gap-3 bg-white p-4 rounded-lg border border-slate-100"
-              >
-                <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
-                <span className="text-slate-700" dangerouslySetInnerHTML={{ __html: activity }} />
-              </div>
-            ))}
+          <div className="relative pl-8">
+            <div className="absolute left-[7px] top-2 bottom-2 w-0.5 bg-slate-200" />
+            <div className="space-y-8">
+              {profile.academic.map((activity, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, x: -10 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="relative"
+                >
+                  <div className="absolute -left-8 top-1 w-3.5 h-3.5 rounded-full bg-accent ring-4 ring-blue-50" />
+                  <p className="text-xs font-semibold text-accent uppercase tracking-wide mb-1">
+                    {activity.date}
+                  </p>
+                  <span
+                    className="text-slate-700"
+                    dangerouslySetInnerHTML={{ __html: activity.text }}
+                  />
+                </motion.div>
+              ))}
+            </div>
           </div>
         </Section>
         <Teaching />
