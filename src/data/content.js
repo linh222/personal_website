@@ -3,7 +3,7 @@ export const profile = {
   shortName: 'Linh',
   role: 'Lecturer, University of Information Technology, VNU-HCM',
   tagline:
-    'I teach and research intelligent systems that connect Large Language Models with multimodal data — RAG pipelines, conversational retrieval, and question answering over lifelogs. I welcome students interested in AI and NLP research.',
+    'I teach and research intelligent systems that connect Large Language Models with multimodal data — RAG pipelines, conversational retrieval, and question answering over lifelogs. I welcome students interested in AI, IR and NLP research.',
   openTo: 'Welcoming Students for Research Collaboration',
   emailDisplay: 'linhtq [at] uit.edu.vn',
   avatar: 'photo.jpg',
